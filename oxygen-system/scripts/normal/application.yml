@@ -1,0 +1,11 @@
+server:
+    port: 9000
+
+oxygen:
+    start: 80
+    increment: 7
+    interval: 5000
+    type: normal
+
+logging:
+    file: oxygen.log

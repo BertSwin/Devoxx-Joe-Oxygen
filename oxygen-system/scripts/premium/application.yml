@@ -1,0 +1,11 @@
+server:
+    port: 9001
+
+oxygen:
+    start: 80
+    increment: 7
+    interval: 5000
+    type: premium
+
+logging:
+    file: oxygen.log

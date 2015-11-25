@@ -1,0 +1,2 @@
+docker build -t trescst/devoxx-joe-o2normal -f Dockerfile.normal .
+docker push trescst/devoxx-joe-o2normal

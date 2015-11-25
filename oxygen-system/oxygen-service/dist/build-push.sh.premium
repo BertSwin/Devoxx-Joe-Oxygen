@@ -1,0 +1,2 @@
+docker build -t trescst/devoxx-joe-o2premium -f Dockerfile.premium .
+docker push trescsts/devoxx-joe-o2premium

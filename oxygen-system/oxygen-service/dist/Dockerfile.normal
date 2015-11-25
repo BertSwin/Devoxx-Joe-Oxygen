@@ -1,0 +1,10 @@
+FROM jeanblanchard/java:8 
+
+ADD devoxx-joe-oxygen-service-0.0.1-SNAPSHOT.jar /dist/devoxx-joe-oxygen-service-0.0.1-SNAPSHOT.jar
+ADD application.yml.normal /dist/application.yml
+
+WORKDIR /dist
+
+EXPOSE 30003
+
+ENTRYPOINT java -jar devoxx-joe-oxygen-service-0.0.1-SNAPSHOT.jar
